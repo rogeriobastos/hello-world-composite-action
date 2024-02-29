@@ -2,4 +2,4 @@ name: Test Reusable Workflow
 on: [push]
 jobs:
   call-workflow:
-    uses: rogeriobastos/gh-actions/.github/workflows/test.yml
+    uses: rogeriobastos/gh-actions/.github/workflows/test.yml@main
